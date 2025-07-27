@@ -268,7 +268,7 @@ const menuData = {
                 ]
             },
             "Tandoori & Kababs": {
-                image: "images/tandoori chicken.jpg",
+                image: "images/tandoori-chicken.jpg",
                 items: [
                     "Chicken Haryali Tikka Half-->(4pcs) - ₹170",
                     "Chicken Haryali Tikka Full-->(8pcs) - ₹330",
