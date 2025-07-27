@@ -7,252 +7,283 @@ const menuData = {
     menu: {
         veg: {
             "Soups": {
-                image: "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=500&h=300&fit=crop",
+                image: "images/veg-soup.jpg",
                 items: [
-                    "Veg Sweet Corn Soup - ₹30",
                     "Tomato Soup - ₹60",
                     "Veg Manchow Soup - ₹70",
                     "Veg Hot Corn Soup - ₹80",
+                    "Veg Sweet Corn Soup - ₹80",
                     "Veg Lemon Coriander Soup - ₹90"
                 ]
             },
             "Starters": {
-                image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=500&h=300&fit=crop",
+                image: "images/veg-starters.avif",
                 items: [
                     "Veg Manchuria - ₹70",
                     "Gobi Manchuria - ₹80",
                     "Chilli Gobi - ₹90",
-                    "Mushroom Manchuria - ₹110",
-                    "Paneer Manchuria - ₹110",
-                    "Mushroom 65 - ₹120",
-                    "Gobi 65 - ₹120",
+                    "Gobi 65 - ₹100",
+                    "Mushroom Manchuria - ₹120",
+                    "Paneer Manchuria - ₹120",
+                    "Mushroom 65 - ₹130",
                     "Babycorn Manchuria - ₹130",
                     "Paneer 65 - ₹130",
                     "Babycorn 65 - ₹140",
-                    "Paneer Majestic - ₹140",
                     "Chilli Paneer - ₹140",
                     "Chilli Mushroom - ₹140",
+                    "Paneer Majestic - ₹150",
                     "Chilli Babycorn - ₹150",
                     "Kaju 65 - ₹180",
                     "Kaju Pakodi - ₹190",
                     "Kaju Roast - ₹200"
+
                 ]
             },
             "Biryani": {
-                image: "https://images.unsplash.com/photo-1563379091339-03246963d51a?w=500&h=300&fit=crop",
+                image: "images/veg-biryani.jpg",
                 items: [
-                    "Veg Biryani - ₹120",
-                    "Egg Biryani - ₹120",
-                    "Mushroom Biryani - ₹150",
+                    "Plain Biryani Rice - ₹80",
+                    "Veg Biryani - ₹130",
+                    "Mushroom Biryani - ₹160",
+                    "Kaju Biryani - ₹180",
                     "Paneer Biryani - ₹180"
                 ]
             },
             "Fried Rice & Noodles": {
-                image: "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=500&h=300&fit=crop",
+                image: "images/fried-rice.jpeg",
                 items: [
-                    "Jeera - ₹70",
-                    "Veg - ₹80",
-                    "Babycorn - ₹80",
-                    "Paneer - ₹90",
-                    "Mushroom - ₹90",
-                    "Kaju - ₹90",
-                    "Noodles - ₹80",
+                    "Veg Noodles - ₹80",
+                    "Schezwan Noodles - ₹110",
+                    "Jeera Fried Rice - ₹70",
+                    "Veg Fried Rice - ₹80",
+                    "Mushroom Fried Rice - ₹90",
+                    "Babycorn Fried Rice - ₹100",
+                    "Paneer Fried Rice - ₹100",
+                    "Kaju Fried Rice - ₹100",
                     "Schezwan Veg - ₹110",
-                    "Schezwan Paneer - ₹110",
                     "Schezwan Mushroom - ₹110",
-                    "Schezwan Babycorn - ₹110",
+                    "Schezwan Paneer - ₹120",
+                    "Schezwan Babycorn - ₹120",
+                    "Schezwan Kaju - ₹120",
                     "Mixed Veg Fried Rice - ₹150"
+
                 ]
             },
             "Curries": {
                 image: "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=500&h=300&fit=crop",
                 items: [
-                    "Mixed Veg - ₹110",
-                    "Egg Curry / Egg Korma / Egg Masala - ₹120",
-                    "Mushroom - ₹140",
-                    "Babycorn Curry - ₹140",
-                    "Kadai Mushroom - ₹150",
-                    "Kaju Curry - ₹160",
+                    "Mixed Veg - ₹120",
+                    "Mushroom - ₹150",
+                    "Babycorn Curry - ₹150",
+                    "Kadai Mushroom - ₹160",
+                    "Kadai Babycorn - ₹160",
+                    "Kaju Curry - ₹170",
                     "Paneer Butter Masala - ₹180",
-                    "Kadai Paneer - ₹190",
-                    "Kadai Babycorn - ₹150"
+                    "Kadai Paneer - ₹190"
                 ]
             },
             "Roti & Naan": {
-                image: "https://images.unsplash.com/photo-1574653853027-5d6c1ca89ddb?w=500&h=300&fit=crop",
+                image: "images/naan.jpeg",
                 items: [
-                    "Roti - ₹10",
-                    "Butter Roti - ₹15",
-                    "Kothmeer Roti - ₹20",
-                    "Plain Naan - ₹30",
-                    "Butter Naan - ₹40",
-                    "Kothmeer Naan - ₹50",
-                    "Garlic Naan - ₹60",
-                    "Plain Kulcha - ₹60",
-                    "Butter Kulcha - ₹70"
+                    "Roti-->(1 Pc) - ₹10",
+                    "Butter Roti-->(1 Pc) - ₹15",
+                    "Kothmeer Roti-->(1 Pc) - ₹20",
+                    "Plain Naan-->(2 Pcs) - ₹30",
+                    "Butter Naan-->(2 Pcs) - ₹40",
+                    "Kothmeer Naan-->(2 Pcs) - ₹50",
+                    "Garlic Naan-->(2 Pcs) - ₹60",
+                    "Plain Kulcha-->(2 Pcs) - ₹60",
+                    "Butter Kulcha-->(2 Pcs) - ₹70"
+                ]
+            },
+            "Chilled Drinks": {
+                image: "images/juices.jpeg",
+                items: [
+                    "Butter Milk - ₹30",
+                    "Sweet Lassi - ₹50",
                 ]
             }
         },
         "non-veg": {
             "Soups": {
-                image: "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=500&h=300&fit=crop",
+                image: "images/chicken soup.jpg",
                 items: [
                     "Chicken Sweet Corn Soup - ₹120",
                     "Chicken Hot Corn Soup - ₹130",
                     "Chicken Manchow Soup - ₹140",
                     "Chicken Lemon Coriander Soup - ₹150",
                     "Chicken Dragon Soup - ₹160",
-                    "Mutton Hot Corn Soup - ₹180",
-                    "Mutton Soup - ₹190"
+                    "Mutton Soup - ₹180",
+                    "Mutton Hot Corn Soup - ₹190"
                 ]
             },
             "Starters - Chicken": {
-                image: "https://images.unsplash.com/photo-1562967914-608f82629710?w=500&h=300&fit=crop",
+                image: "images/chicken starters.jpg",
                 items: [
                     "Chicken Pakoda - ₹110",
-                    "Chicken Manchuria - ₹130",
-                    "Chicken 65 - ₹140",
-                    "Chilli Chicken - ₹150",
-                    "Chicken 555 - ₹150",
-                    "Chicken Drumstick (Dry) - ₹170",
-                    "Pepper Chicken - ₹170",
-                    "Chicken Lollipop (Juicy) - ₹180",
-                    "Chicken Majestic - ₹160",
-                    "Dragon Chicken - ₹160",
-                    "Lemon Chicken - ₹180",
-                    "Chicken Kabab Pakodi - ₹200",
-                    "Kaju Nut Chicken - ₹230",
-                    "Crispy Chicken - ₹240"
+                        "Chicken Manchuria - ₹130",
+                        "Chicken 65 - ₹140",
+                        "Chilli Chicken - ₹150",
+                        "Chicken 555 - ₹150",
+                        "Chicken Majestic - ₹160",
+                        "Chicken Drumstick (Dry) - ₹170",
+                        "Pepper Chicken - ₹170",
+                        "Dragon Chicken - ₹170",
+                        "Chicken Lollipop (Juicy) - ₹180",
+                        "Lemon Chicken - ₹180",
+                        "Chicken Kabab Pakodi - ₹200",
+                        "Kaju Nut Chicken - ₹230",
+                        "Crispy Chicken - ₹250"
+
                 ]
             },
             "Starters - Egg": {
-                image: "https://images.unsplash.com/photo-1582169296194-f4134b1cc2db?w=500&h=300&fit=crop",
+                image: "images/egg starters.jpg",
                 items: [
                     "Egg Burji - ₹70",
                     "Egg 65 - ₹80",
+                    "Egg Manchuria - ₹80",
                     "Chilli Egg - ₹90",
-                    "Egg Manchuria - ₹110"
                 ]
             },
             "Starters - Mutton": {
-                image: "https://images.unsplash.com/photo-1544025162-d76694265947?w=500&h=300&fit=crop",
+                image: "images/mutton starters.jpeg",
                 items: [
                     "Mutton Manchuria - ₹200",
-                    "Mutton 65 - ₹220",
-                    "Chilli Mutton - ₹240"
+                    "Mutton 65 - ₹230",
+                    "Chilli Mutton - ₹250"
                 ]
             },
             "Starters - Fish": {
-                image: "https://images.unsplash.com/photo-1544943910-4c1dc44aab44?w=500&h=300&fit=crop",
+                image: "images/fish starters.jpg",
                 items: [
                     "Fish Roast Bones - ₹80",
                     "Fish Roast Boneless - ₹200",
                     "Fish 65 - ₹210",
-                    "Apollo Fish - ₹220",
-                    "Chilli Fish - ₹220"
+                    "Chilli Fish - ₹220",
+                    "Apollo Fish - ₹230",
                 ]
             },
             "Starters - Prawns": {
-                image: "https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?w=500&h=300&fit=crop",
+                image: "images/prawns starters.jpg",
                 items: [
                     "Prawns Manchuria - ₹160",
                     "Prawns 65 - ₹170",
                     "Chilli Prawns - ₹180",
-                    "Loose Prawns - ₹200"
+                    "Loose Prawns - ₹190"
                 ]
             },
             "Biryani - Chicken": {
-                image: "https://images.unsplash.com/photo-1563379091339-03246963d51a?w=500&h=300&fit=crop",
+                image: "images/chicken biryani.jpg",
                 items: [
-                    "Plain Biryani Rice - ₹80",
-                    "Hyderabad Dum Biryani (Half) - ₹110",
-                    "Hyderabad Dum Biryani (Full) - ₹150",
+                   "Plain Biryani Rice - ₹80",
+                    "Hyderabad Dum Biryani-->(Half) - ₹120",
+                    "Hyderabad Dum Biryani-->(Full) - ₹160",
                     "Chicken Fry Piece Biryani - ₹160",
+                    "Chicken Lollipop Biryani-->(Half) - ₹160",
                     "Gongura Chicken Biryani - ₹170",
-                    "Chicken Grant Biryani - ₹180",
-                    "Chicken Mughlai Biryani - ₹200",
+                    "Chicken Joint Biryani - ₹180",
+                    "Hyderabadi Special Biryani - ₹180",
+                    "Mughlai Chicken Biryani - ₹200",
                     "Chicken 65 Biryani - ₹210",
-                    "Chicken Lollipop Biryani (Half) - ₹160",
-                    "Chicken Lollipop Biryani (Full) - ₹300",
-                    "Chicken Dilkush Biryani - ₹600",
+                    "Chicken Lollipop Biryani-->(Full) - ₹300",
+                    "Family Pack-->(Sprite 250ml Free) - ₹450",
+                    "Chicken Dilkush Biryani - ₹700",
+                    "Jumbo Pack-->(2 Butter Naan, Chicken Curry, 500ml Sprite, 3 Eggs, Chicken 65) - ₹1200"
+
+                ]
+            },
+            "Biryani - (Mutton Only on Wednesday & Sunday for Special One’s)": {
+                image: "images/mutton biryani.jpg",
+                items: [
+                    "",
+                    "Mutton Dum Biryani - ₹320",
+                    "Mutton Fry Biryani - ₹330",
+                    "Mutton Mughlai Biryani - ₹340",
+                    "Gongura Mutton Biryani - ₹350",
+                    "Mutton SP Biryani - ₹360",
+                    "Family Pack-->(Sprite 250ml Free) - ₹650",
+                    "Jumbo Pack-->(2 Butter Naan, Chicken Curry, 500ml Sprite, 3 Eggs, Chicken 65) - ₹1500"
+                ]
+            },
+            "Biryani - Egg & Fish & Prawns": {
+                image: "images/egg biryani.jpg",
+                items: [
+                    "Egg Biryani - ₹130",
+                    "Fish Biryani - ₹200",
+                    "Prawns Biryani - ₹210",
                     "Mix Non-Veg Biryani - ₹600",
-                    "Hyderabad Dum Biryani (Family Pack) - ₹450",
-                    "Hyderabad Dum Biryani (Jumbo Pack) - ₹1150"
                 ]
             },
-            "Biryani - Mutton": {
-                image: "https://images.unsplash.com/photo-1563379091339-03246963d51a?w=500&h=300&fit=crop",
+            "Fried Rice & Noodles": {
+                image: "images/chicken rice.jpg",
                 items: [
-                    "Mutton Dum - ₹320",
-                    "Mutton Fry - ₹330",
-                    "Mutton Mughlai - ₹340",
-                    "Mutton SP - ₹350",
-                    "Gongura Mutton - ₹350",
-                    "Family Pack - ₹650",
-                    "Jumbo Pack - ₹1500"
-                ]
-            },
-            "Fried Rice": {
-                image: "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=500&h=300&fit=crop",
-                items: [
-                    "Egg Fried Rice (Single) - ₹90",
-                    "Fish - ₹110",
-                    "Chicken - ₹100",
+                    "Chicken Noodles - ₹100",
+                    "Chicken Schezwan Noodles - ₹120",
+                    "Egg Fried Rice (Single) - ₹80",
+                    "Dragon Egg Fried Rice - ₹90",
+                    "Chicken Fried Rice - ₹100",
                     "Egg Schezwan - ₹100",
+                    "Fish Fried Rice - ₹110",
                     "Chicken Schezwan - ₹120",
-                    "Prawns - ₹120",
-                    "Chicken Box - ₹140",
-                    "Chicken SP - ₹150"
+                    "Prawns Fried Rice - ₹130",
+                    "Chicken Box Fried Rice - ₹140",
+                    "Chicken SP Fried Rice - ₹150"
+
                 ]
             },
             "Curries - Chicken": {
-                image: "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=500&h=300&fit=crop",
+                image: "images/chicken curry.jpg",
                 items: [
-                    "Chicken Curry (Bones) - ₹150",
-                    "Chicken Kheema Masala - ₹150",
+                    "Chicken Curry-->(Bones) - ₹160",
+                    "Chicken Kheema Masala - ₹160",
+                    "Coriander Chicken - ₹170",
                     "Gongura Chicken - ₹180",
-                    "Kadai Chicken - ₹190",
-                    "Punjabi Chicken - ₹200",
-                    "Butter Chicken - ₹200",
-                    "Chicken Mughlai - ₹200",
+                    "Kadai Chicken - ₹180",
+                    "Hyderabad Chicken - ₹200",
+                    "Chicken Muhrani - ₹200",
+                    "Chicken Curry-->(Boneless) - ₹220",
+                    "Afghani Chicken - ₹220",
                     "Mughlai Chicken - ₹230",
-                    "Chicken Curry (Boneless) - ₹220",
-                    "Afghani Chicken - ₹240",
-                    "Hyderabad Chicken - ₹240"
+                    "Punjabi Chicken - ₹250",
+                    "Butter Chicken - ₹250"
+
                 ]
             },
             "Curries - Mutton": {
-                image: "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=500&h=300&fit=crop",
+                image: "images/mutton curry.jpg",
                 items: [
-                    "Mutton Curry - ₹270",
-                    "Kadai Mutton - ₹300",
+                    "Mutton Curry - ₹280",
+                    "Kadai Mutton - ₹290",
                     "Mutton Masala - ₹300"
                 ]
             },
             "Curries - Fish & Prawns": {
-                image: "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=500&h=300&fit=crop",
+                image: "images/fish curry.jpeg",
                 items: [
                     "Fish Curry - ₹200",
-                    "Kacchi Fish - ₹220",
+                    "Kadai Fish - ₹220",
                     "Prawns Curry - ₹220",
-                    "Kadai Prawns - ₹220"
+                    "Kadai Prawns - ₹230"
                 ]
             },
             "Tandoori & Kababs": {
-                image: "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=500&h=300&fit=crop",
+                image: "images/tandoori chicken.jpg",
                 items: [
-                    "Tangdi Kabab Half (2 pcs) - ₹150",
-                    "Chicken Tikka Half (4 pcs) - ₹160",
-                    "Chicken Haryali Tikka Half - ₹170",
-                    "Reshmi Kabab Half - ₹170",
-                    "Chicken Tikka Full (8 pcs) - ₹300",
-                    "Chicken Haryali Tikka Full - ₹330",
-                    "Reshmi Kabab Full - ₹340",
-                    "Tandoori Chicken Half (4 pcs) - ₹270",
-                    "Tandoori Chicken Full (8 pcs) - ₹510",
+                    "Chicken Haryali Tikka Half-->(4pcs) - ₹170",
+                    "Chicken Haryali Tikka Full-->(8pcs) - ₹330",
+                    "Chicken Tikka Half-->(4 pcs) - ₹160",
+                    "Chicken Tikka Full-->(8 pcs) - ₹300",
+                    "Malai Kabab Half-->(4 pcs) - ₹160",
+                    "Malai Kabab Full-->(8 pcs) - ₹320",
+                    "Reshmi Kabab Half-->(4 pcs) - ₹170",
+                    "Reshmi Kabab Full-->(8pcs) - ₹340",
+                    "Tandoori Chicken Half-->(4 pcs) - ₹270",
+                    "Tandoori Chicken Full-->(8 pcs) - ₹510",
+                    "Tangdi Kabab Half-->(2 pcs) - ₹150",
+                    "Tangdi Kabab Full-->(4 pcs) - ₹300",
                     "Fish Tikka - ₹220",
-                    "Prawns Tikka - ₹320",
-                    "Malai Kabab (4 pcs) - ₹320"
+                    "Prawns Tikka - ₹320"
                 ]
             }
         }
